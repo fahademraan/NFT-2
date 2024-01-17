@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-page-image {
+  background-image: url("../src/Components/Images/bg-page.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.red-gradient {
+  background: linear-gradient(90deg, #ea6969 0%, #eaccf8 48%, #970000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+
+.table tr {
+  display: table-row !important;
+  vertical-align: inherit !important;
+  margin-bottom: 20px !important;
+  box-sizing: border-box;
+  text-align: end;
+}
+
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  box-sizing: border-box;
+  display: table-cell;
+  text-align: end;
+}
+
+.wrapper {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rounded-b {
+  border-radius: 20px;
+}
+
+@media(max-width: 1100px) {
+  .table-res {
+    overflow-x: auto;
+  }
+}
